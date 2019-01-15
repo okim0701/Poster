@@ -42,42 +42,64 @@ main {
     background-color: red;
     left: 393px;
     top: 300px;
+    animation-name: red;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
 }
 
 #blue{
-    background-color: blue;
+    background-color: #0c85c1;
     left:100px;
     top: 300px;
+    animation-name: blue;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #black1{
     background-color: black;
-    left:96px;
+    left: 96px;
     top: 300px;
+    animation-name: black;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 #black2{
     background-color: black;
     left:400px;
     top: 300px;
+    animation-name: blacktwo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 #yellow{
     background-color: yellow;
     left:500px;
     top: 300px;
+    animation-name: yellow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 #grey1{
     background-color: grey;
     left:124px;
     top: 100px;
+    animation-name: grey;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 #grey2{
     background-color: grey;
     left:68px;
     top: 366px;
+    animation-name: greytwo;
+    animation-duration: 5s;
+    animation-delay: 2.5s;
+    animation-iteration-count: infinite;
 }
 
 /* ---------------footer---------------- */
